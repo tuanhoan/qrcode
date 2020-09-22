@@ -1,0 +1,14 @@
+<!-- <nz-carousel style="height: 40px; width: 1000px;" nzAutoPlay>
+  <div nz-carousel-content *ngFor="let index of array;">
+    <h3>{{ index }}</h3>
+  </div>
+</nz-carousel> -->
+<nz-carousel style="height: 600px; width: 1000px;" nzAutoPlay>
+  <div nz-carousel-content *ngFor="let index of brray; let ix of array;" >
+    <!-- <p class="position-absolute">{{index}}</p>  -->
+    <p class="position-absolute">{{ix}}</p>
+    <img src="{{index}}" alt="kkk">
+    
+  </div>
+</nz-carousel>
+
